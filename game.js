@@ -56,6 +56,8 @@ function create() {
   planets = this.add.group();
   txt = this.add.text(0, 0, "Currently selected: " + nameDict[state]);
   let txt2 = this.add.text(0, 20, "Click once to place a celestial body, click again to make it move")
+  let txt3 = this.add.text(0, 40, "Press \'s\' to select the Sun, press \'r\' to select the Rocket")
+  let txt4 = this.add.text(0, 60, "Press the bottom row of letter keys to select different planets")
 
   this.keys = this.input.keyboard.createCursorKeys();
 }
